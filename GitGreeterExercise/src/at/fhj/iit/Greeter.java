@@ -61,6 +61,11 @@ public interface Greeter {
 	 *
 	 *
 	 */
+	String name;
+
+	public GreeterImpl(name){
+		this.name = name;
+	}
 
 	void sayHello();
 
